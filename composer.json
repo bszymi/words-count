@@ -1,0 +1,27 @@
+{
+    "name": "bszymi/words-count",
+    "description": "Recruitment task for SecretSales",
+    "type": "project",
+    "authors": [
+        {
+            "name": "BartoszSzymichowski",
+            "email": "bszymi@gmail.com"
+        }
+    ],
+    "require": {
+       "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WordsCount\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
